@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?8ksc78');
+  src:  url('fonts/icomoon.eot?8ksc78#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8ksc78') format('truetype'),
+    url('fonts/icomoon.woff?8ksc78') format('woff'),
+    url('fonts/icomoon.svg?8ksc78#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dots-three-horizontal:before {
+  content: "\e906";
+}
+.icon-thumb-tack:before {
+  content: "\e909";
+}
+.icon-check:before {
+  content: "\e907";
+}
+.icon-upload:before {
+  content: "\e908";
+}
+.icon-pinterest:before {
+  content: "\e905";
+}
+.icon-search:before {
+  content: "\e904";
+}
+.icon-commenting:before {
+  content: "\e901";
+}
+.icon-user:before {
+  content: "\e902";
+}
+.icon-chevron-down:before {
+  content: "\e903";
+}
+.icon-x:before {
+  content: "\e900";
+}
+.icon-search2:before {
+  content: "\e986";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-pinterest2:before {
+  content: "\ead2";
+}
