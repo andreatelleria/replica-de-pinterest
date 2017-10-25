@@ -1,17 +1,124 @@
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
 .menu {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 10px 0;
   width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+  text-align: center;
 }
 
 .tags {
   list-style: none;
   padding: 0;
-  margin: 0;
-  margin-top: 20px;
+  width: 100%;
+  text-align: center;
 }
 
-ul li {
+.menu, .input-box, .search-box, .pins-box, .menu li, .tags, .images, .post, .tags li {
   display: inline-block;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  padding: 0;
+  text-decoration: none;
+  color: #b5b5b5;
+}
+
+.menu li .icon-pinterest2 {
+  font-size: 18px;
+  color: #bd081c;
+}
+
+.input-box {
+  border-radius: 5%;
+  margin: 0 16px;
+  width: 70%;
+  padding: 0px 10px;
+  background-color: #efefef;
+}
+
+.menu .input.box .search-box {
+  width: 85%;
+}
+
+input {
+  width: 93%;
+  border: none;
+  outline: 0;
+  line-height: 20px;
+  font-size: 18px;
+  background-color: transparent;
+  outline: 1px solid blue;
+}
+
+
+.tags {
+	display: table;
+	margin: auto;
+	clear: left;
+}
+
+.tags li {
+	float: feft;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #903338;
+	border-radius: 5px;
+	line-height: 60px;
+	color: white;
+	font-weight: 900;
+}
+
+.images {
+  column-count: 4;
+  column-gap: 5px;
+  padding: 145px 40px 145px 80px;
+}
+
+.post {
+	display: inline-block;
+    margin: 0 0 5px;
+    width: 100%;
+}
+
+img {
+	max-width: 280px;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.tags li:nth-child(1), .tags li:nth-child(4), .tags li:nth-child(10) {
+	background-color: #903338;
+}
+
+.tags li:nth-child(2), .tags li:nth-child(6), .tags li:nth-child(9) {
+	background-color: #efdfb2;
+}
+
+.tags li:nth-child(3), tags li:nth-child(7) {
+	background-color: #272624;
+}
+
+.tags li:nth-child(5), .tags li:nth-child(8) {
+	background-color: #4b745d;
 }
